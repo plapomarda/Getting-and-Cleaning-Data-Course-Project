@@ -72,4 +72,4 @@ SummaryData <- ddply(MoltenData,.(Activity,SubjectID,Measure),summarise,Mean=mea
 write.table(SummaryData,file="./data/SummaryData.txt",row.names=FALSE)
 ```
 
-The final output contains the average of each variable for each activity and each subject.  The detailed descriptions of the variables, activities, and raw data files can be found in the [UCI HAR Dataset.names](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names) file contained within the [raw data archive](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip).
+The final output contains the average of each variable for each activity and each subject.  The detailed descriptions of the variables, activities, and raw data files can be found in the [UCI HAR Dataset.names](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names) file contained within the [raw data archive](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/).
