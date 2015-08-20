@@ -5,7 +5,7 @@ date: "August 20, 2015"
 output: html_document
 ---
 
-The first part of the program sets the working directory and downloads the raw data:
+The first part of the [program](run_analysis.R) sets the working directory and downloads the raw data:
 
 ```{r}
 ##Dowload Data
